@@ -1,5 +1,8 @@
-import math
- sayı=math.pi*3
- print(sayı)
- sayı=sayı/4
- print(sayı)
+toplam=0
+while True:
+  sayi = float(input("Bir sayı girin: "))
+  if sayi ==0:
+    break
+  toplam+=sayi
+print("Girdiğiniz sayıları toplamı: ",toplam)
+ 
